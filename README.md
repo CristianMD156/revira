@@ -83,8 +83,6 @@ O aplicativo terá uma tela “Sobre o ReVira” com os nomes completos dos inte
 - Paula Cristina da Rocha Paim.
 - Kédyna Lagni.
 
-Não deixar os nomes de exemplo na versão final.
-
 ## 8. Como será gerado o APK
 
 A proposta utiliza Ionic, Angular e Capacitor para construir a interface e empacotar o aplicativo para Android.
