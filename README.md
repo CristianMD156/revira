@@ -77,11 +77,11 @@ Os protótipos são referências de interface e deverão ser ajustados conforme 
 
 O aplicativo terá uma tela “Sobre o ReVira” com os nomes completos dos integrantes do grupo, além do curso e da disciplina.
 
-**Substituir antes da entrega:**
-- Nome completo do integrante 1
-- Nome completo do integrante 2
-- Nome completo do integrante 3
-- Nome completo do integrante 4
+- Cristian Morés Dalcin.
+- Gustavo Henrique Rajab.
+- William Miguel Santos Pereira.
+- Paula Cristina da Rocha Paim.
+- Kédyna Lagni.
 
 Não deixar os nomes de exemplo na versão final.
 
