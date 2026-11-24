@@ -1,0 +1,45 @@
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/flex-utils.css';
+:root{--ion-color-primary:#287a50;--ion-color-primary-rgb:40,122,80;--ion-color-success:#287a50;--ion-color-success-rgb:40,122,80;--ion-background-color:#f6f8f5;--ion-text-color:#20352a;font-family:Arial,Helvetica,sans-serif}
+.brand{font-weight:800;color:#287a50;letter-spacing:-.5px}.leaf{font-size:19px}.hero{background:linear-gradient(145deg,#e3f2e7,#f3f8ed);border-radius:22px;padding:22px 18px;margin:8px 0 24px}.hero h1{font-size:28px;line-height:1.13;margin:8px 0 10px;font-weight:800;color:#183b2a}.hero p{color:#496254;line-height:1.5}.eyebrow{font-size:10px;letter-spacing:1.2px;font-weight:700;color:#287a50}.section-title{display:flex;align-items:center;justify-content:space-between;margin:0 4px 10px}.section-title h2{font-size:19px;margin:0}.section-title span{font-size:12px;color:#718078}.offer-card{margin:12px 0;border-radius:16px;box-shadow:0 3px 14px #1d39200d}.offer-card ion-card-title{font-size:18px}.offer-card p{line-height:1.45;color:#53645a}.meta{display:flex;flex-direction:column;gap:7px;margin:14px 0;color:#637269;font-size:13px}.meta ion-icon{vertical-align:middle;margin-right:4px}.bottom{display:flex;justify-content:space-between;align-items:center;margin:8px 0 12px}.bottom strong{font-size:20px;color:#287a50}.intro{padding:10px 4px 18px}.intro h1{font-size:25px;margin:4px 0 8px}.intro p{color:#617168;line-height:1.5}.empty{text-align:center;padding:36px 20px;color:#69776e;background:#eef3ee;border-radius:14px;margin-top:20px}.footnote,.notice{font-size:12px;color:#66766c;line-height:1.5;margin:20px 4px}.footnote ion-icon{vertical-align:middle;color:#287a50}form ion-item{--background:transparent;margin-bottom:7px}form ion-label{font-weight:600}.notice{background:#fff4df;padding:12px;border-radius:10px;color:#75551d}
+
+
+/* Navegação global: permanece disponível em todas as telas sem bloquear o scroll. */
+html, body, app-root, ion-app { width: 100%; height: 100%; }
+ion-router-outlet { display: block; }
+.app-bottom-nav {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: calc(62px + env(safe-area-inset-bottom));
+  padding: 7px 12px calc(7px + env(safe-area-inset-bottom));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  background: #ffffff;
+  border-top: 1px solid #e4ebe5;
+  box-shadow: 0 -4px 16px rgba(24, 59, 42, .07);
+}
+.app-bottom-nav a {
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: #758279;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.app-bottom-nav a ion-icon { font-size: 22px; }
+.app-bottom-nav a.active { color: #287a50; }
+ion-content { --padding-bottom: 88px; }

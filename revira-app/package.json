@@ -1,0 +1,11 @@
+{
+  "name": "revira-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"ng": "ng", "start": "ng serve", "build": "ng build", "android:add": "npx cap add android", "android:sync": "npx cap sync android", "android:open": "npx cap open android"},
+  "dependencies": {
+    "@angular/animations": "^19.2.0", "@angular/common": "^19.2.0", "@angular/compiler": "^19.2.0", "@angular/core": "^19.2.0", "@angular/forms": "^19.2.0", "@angular/platform-browser": "^19.2.0", "@angular/router": "^19.2.0",
+    "@capacitor/android": "^7.4.0", "@capacitor/app": "^7.0.0", "@capacitor/core": "^7.4.0", "@capacitor/keyboard": "^7.0.0", "@capacitor/status-bar": "^7.0.0", "@capacitor-community/sqlite": "^7.0.0", "@ionic/angular": "^8.4.0", "jeep-sqlite": "^2.8.0", "sql.js": "^1.13.0", "tslib": "^2.8.1", "zone.js": "~0.15.0"
+  },
+  "devDependencies": {"@angular-devkit/build-angular": "^19.2.0", "@angular/cli": "^19.2.0", "@angular/compiler-cli": "^19.2.0", "@capacitor/cli": "^7.4.0", "typescript": "~5.7.2"}
+}

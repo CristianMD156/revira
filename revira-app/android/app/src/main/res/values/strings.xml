@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ReVira</string>
+    <string name="title_activity_main">ReVira</string>
+    <string name="package_name">br.com.revira.app</string>
+    <string name="custom_url_scheme">br.com.revira.app</string>
+</resources>
